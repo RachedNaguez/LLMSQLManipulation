@@ -1,0 +1,9 @@
+sql_task:
+  description: >
+    Answer user questions {question} about the computer store by querying the SQL database.
+    Use list_tables to discover available tables, describe_table to inspect table schemas,
+    and execute_query to retrieve the necessary data. Provide clear and concise answers
+    based on the database results.
+  expected_output: >
+    A direct, well-structured answer to the user's question, using the data returned from the SQL database.
+  agent: sql_agent
